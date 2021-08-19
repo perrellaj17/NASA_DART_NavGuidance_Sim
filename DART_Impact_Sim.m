@@ -51,7 +51,7 @@ Parameters
 %% Body Plane targeting
 
 %{
-B-plane (ìBody planeî) targeting
+B-plane (‚ÄúBody plane‚Äù) targeting
 Objectives: Calculate the mid-course corrections, particularly stochastic Trajectory
 Correction Maneuvers (TCMs), in response to perturbations and
 general errors
@@ -168,28 +168,28 @@ optimizer drives it to zero
 
 The spacecraft can flyby behind the planet or in front of the planet,
 relative to the Sun
-    -Behind the planet: Increase spacecraftís heliocentric speed
-    -In front of the planet: Decrease spacecraftís heliocentric speed
+    -Behind the planet: Increase spacecraft‚Äôs heliocentric speed
+    -In front of the planet: Decrease spacecraft‚Äôs heliocentric speed
 
 Energy is conserved on the planetary flyby hyperbola; if it is an
 unpowered flyby, then the pre- and post-flyby spacecraft v1 (relative
 to the planet) are the same
     -But the heliocentric inertial direction of the pre- and post-flyby ~v1 has
-changed (due to the effect of the planetís gravity) and this change in
+changed (due to the effect of the planet‚Äôs gravity) and this change in
 ~v1 direction on either side of the flyby is what provide the net
 heliocentric dv for the spacecraft
 
 Assumptions:
-    -ìImpulsiveî gravity assist: The flyby planetís heliocentric position and
+    -‚ÄúImpulsive‚Äù gravity assist: The flyby planet‚Äôs heliocentric position and
 velocity are constant during the flyby
-    -Because of the ìimpulsiveî assumption, and using the patched conics
-framework, we can use the spacecraftís known pre-flyby heliocentric
+    -Because of the ‚Äúimpulsive‚Äù assumption, and using the patched conics
+framework, we can use the spacecraft‚Äôs known pre-flyby heliocentric
 velocity, the known position of the planet at the flyby epoch, and
-dvGA to calculate the spacecraftís post-flyby heliocentric orbit
+dvGA to calculate the spacecraft‚Äôs post-flyby heliocentric orbit
 
 
 Maximizing dvGA is not always the objective; often the key to
-optimzing a missionís overall flight plan hinges on obtaining the
+optimzing a mission‚Äôs overall flight plan hinges on obtaining the
 needed value of dvGA at the proper time
 %}
 
